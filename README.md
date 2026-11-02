@@ -48,6 +48,4 @@ The project is intended to be owned by one user, with scripts set to mode 750 an
 ## Test and evidence
 
 Run `./tests/run_tests.sh` on Ubuntu. Cron is configured per user by `./bin/install_cron.sh`; it requires the cron service and a working `crontab` command. The `screenshots/` directory contains instructions for capturing the required genuine Ubuntu terminal evidence. The development host for the supplied project artifacts was Windows, so Ubuntu screenshots and cron runtime evidence must be captured on the target Linux host.
-#� �L�i�n�u�x�-�P�r�o�j�e�c�t�
-�
-�
+
