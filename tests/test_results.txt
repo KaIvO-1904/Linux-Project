@@ -1,0 +1,14 @@
+PASS: configuration file readable
+PASS: main runner executable
+PASS: threshold parser accepts zero and 100
+PASS: threshold parser rejects 101
+PASS: monitor scripts pass Bash parser
+PASS: disk, inode, growth and report cycle completes
+PASS: CSV header and at least one sample
+PASS: generated report exists
+PASS: warning and critical alert branches execute
+PASS: compressed backup passes tar integrity check
+PASS: selected project files recover
+PASS: unsafe destination rejected
+
+Test summary: 12 passed, 0 failed

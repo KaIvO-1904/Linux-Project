@@ -1,0 +1,2 @@
+2026-11-02 10:14:28+0530 WARNING: disk usage on TEST-MOUNT is 75% (threshold 75%)
+2026-11-02 10:14:28+0530 CRITICAL: inode usage on TEST-MOUNT is 90% (threshold 90%)

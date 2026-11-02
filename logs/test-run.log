@@ -1,0 +1,33 @@
+FILESYSTEM                          TOTAL         USED    AVAILABLE     USE%
+none                           4008521728            0   4008521728       0%  /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+drivers                      485295984640 354903793664 130392190976      74%  /usr/lib/wsl/drivers
+/dev/sdd                     1081101176832   1209278464 1024899543040       1%  /
+none                           4008521728            0   4008521728       0%  /usr/lib/wsl/lib
+none                           4008521728        90112   4008431616       1%  /mnt/wslg/versions.txt
+none                           4008521728        90112   4008431616       1%  /mnt/wslg/doc
+C:\                          485295984640 354903793664 130392190976      74%  /mnt/c
+D:\                          262029701120  17648963584 244380737536       7%  /mnt/d
+E:\                          251658235904  38007820288 213650415616      16%  /mnt/e
+2026-11-02 10:14:26+0530 [INFO] Disk usage scan completed.
+FILESYSTEM                     INODES_TOTAL    INODES_USED    INODES_FREE    IUSE%
+none                                 978643              5         978638       1%  /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+/dev/sdd                           67108864          36220       67072644       1%  /
+none                                 978643              7         978636       1%  /usr/lib/wsl/lib
+none                                 978643             57         978586       1%  /mnt/wslg/versions.txt
+none                                 978643             57         978586       1%  /mnt/wslg/doc
+2026-11-02 10:14:27+0530 [INFO] Inode usage scan completed.
+Storage snapshot at 2026-11-02T10:14:27+0530
+  /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2 used=0 bytes (baseline)
+  /usr/lib/wsl/drivers         used=354903793664 bytes (baseline)
+  /                            used=1209278464 bytes (baseline)
+  /usr/lib/wsl/lib             used=0 bytes (baseline)
+  /mnt/wslg/versions.txt       used=90112 bytes (baseline)
+  /mnt/wslg/doc                used=90112 bytes (baseline)
+  /mnt/c                       used=354903793664 bytes (baseline)
+  /mnt/d                       used=17648971776 bytes (baseline)
+  /mnt/e                       used=38007820288 bytes (baseline)
+2026-11-02 10:14:27+0530 [INFO] Storage growth sample recorded.
+Report created: /mnt/d/Linuxproj/linux-storage-monitor/reports/storage_report_20261102_101427.txt
+2026-11-02 10:14:28+0530 [INFO] Report generated: reports/storage_report_20261102_101427.txt
+
+Run completed. Logs: /mnt/d/Linuxproj/linux-storage-monitor/logs | Reports: /mnt/d/Linuxproj/linux-storage-monitor/reports

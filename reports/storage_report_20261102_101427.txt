@@ -1,0 +1,82 @@
+LINUX STORAGE MONITORING SYSTEM
+Generated: 2026-11-02 10:14:27 +0530
+Host: LAPTOP-J2GAJMIC
+
+DISK USAGE (df -hP)
+-------------------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         452G  331G  122G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.2G  955G   1% /
+none            3.8G   32K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.8M  3.8G   1% /init
+none            3.8G     0  3.8G   0% /dev
+none            3.8G  500K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   88K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   88K  3.8G   1% /mnt/wslg/doc
+C:\             452G  331G  122G  74% /mnt/c
+D:\             245G   17G  228G   7% /mnt/d
+E:\             235G   36G  199G  16% /mnt/e
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           765M  8.0K  765M   1% /run/user/1000
+
+INODE USAGE (df -iP)
+
+--------------------
+Filesystem       Inodes   IUsed    IFree IUse% Mounted on
+none             978643       5   978638    1% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none             978643       2   978641    1% /mnt/wsl
+drivers             999 -999001  1000000     - /usr/lib/wsl/drivers
+/dev/sdd       67108864   36220 67072644    1% /
+none             978643      23   978620    1% /mnt/wslg
+none             978643       7   978636    1% /usr/lib/wsl/lib
+rootfs           977204      12   977192    1% /init
+none             977204     389   976815    1% /dev
+none             978643     524   978119    1% /run
+none             978643       1   978642    1% /run/lock
+none             978643       1   978642    1% /run/shm
+none             978643      57   978586    1% /mnt/wslg/versions.txt
+none             978643      57   978586    1% /mnt/wslg/doc
+C:\                 999 -999001  1000000     - /mnt/c
+D:\                 999 -999001  1000000     - /mnt/d
+E:\                 999 -999001  1000000     - /mnt/e
+none               1024       1     1023    1% /run/credentials/systemd-journald.service
+none               1024       1     1023    1% /run/credentials/getty@tty1.service
+tmpfs            195728      36   195692    1% /run/user/1000
+
+LARGEST DIRECTORIES (top-level /, best effort)
+
+-----------------------------------------------
+4.0K	/opt
+4.0K	/root
+4.0K	/srv
+8.0K	/tmp
+16K	/lost+found
+84K	/home
+3.2M	/etc
+370M	/var
+779M	/usr
+1.2G	/
+
+RECENT ALERTS
+
+-------------
+
+LATEST STORAGE HISTORY
+
+----------------------
+timestamp,filesystem,mountpoint,total_bytes,used_bytes,available_bytes,usage_percent,inodes_total,inodes_used,inodes_free,inode_percent
+2026-11-02T10:14:27+0530,none,/usr/lib/modules/6.18.33.2-microsoft-standard-WSL2,4008521728,0,4008521728,0,978643,5,978638,1
+2026-11-02T10:14:27+0530,drivers,/usr/lib/wsl/drivers,485295984640,354903793664,130392190976,74,999,-999001,1000000,-
+2026-11-02T10:14:27+0530,/dev/sdd,/,1081101176832,1209278464,1024899543040,1,67108864,36220,67072644,1
+2026-11-02T10:14:27+0530,none,/usr/lib/wsl/lib,4008521728,0,4008521728,0,978643,7,978636,1
+2026-11-02T10:14:27+0530,none,/mnt/wslg/versions.txt,4008521728,90112,4008431616,1,978643,57,978586,1
+2026-11-02T10:14:27+0530,none,/mnt/wslg/doc,4008521728,90112,4008431616,1,978643,57,978586,1
+2026-11-02T10:14:27+0530,C:\,/mnt/c,485295984640,354903793664,130392190976,74,999,-999001,1000000,-
+2026-11-02T10:14:27+0530,D:\,/mnt/d,262029701120,17648971776,244380729344,7,999,-999001,1000000,-
+2026-11-02T10:14:27+0530,E:\,/mnt/e,251658235904,38007820288,213650415616,16,999,-999001,1000000,-

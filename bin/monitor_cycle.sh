@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+ROOT="$(cd -- "$(dirname -- "$0")/.." && pwd -P)"
+"${ROOT}/bin/disk_monitor.sh"
+"${ROOT}/bin/inode_monitor.sh"
+"${ROOT}/bin/storage_growth.sh"

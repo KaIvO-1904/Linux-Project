@@ -1,0 +1,7 @@
+2026-11-02 10:14:26+0530 [INFO] Disk usage scan completed.
+2026-11-02 10:14:27+0530 [INFO] Inode usage scan completed.
+2026-11-02 10:14:27+0530 [INFO] Storage growth sample recorded.
+2026-11-02 10:14:28+0530 [INFO] Report generated: reports/storage_report_20261102_101427.txt
+2026-11-02 10:14:28+0530 WARNING: disk usage on TEST-MOUNT is 75% (threshold 75%)
+2026-11-02 10:14:28+0530 CRITICAL: inode usage on TEST-MOUNT is 90% (threshold 90%)
+2026-11-02 10:14:29+0530 [INFO] Backup created and integrity verified: backup/linux-storage-monitor_20261102_101429.tar.gz

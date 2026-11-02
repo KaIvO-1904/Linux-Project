@@ -1,0 +1,12 @@
+PASS: configuration file readable
+PASS: main runner executable
+PASS: threshold parser accepts zero and 100
+PASS: threshold parser rejects 101
+PASS: monitor scripts pass Bash parser
+SKIP: live df collection, CSV sampling, and report integration require Linux; host is MSYS_NT-10.0-26200
+PASS: warning and critical alert branches execute
+PASS: compressed backup passes tar integrity check
+PASS: selected project files recover
+PASS: unsafe destination rejected
+
+Test summary: 9 passed, 0 failed
